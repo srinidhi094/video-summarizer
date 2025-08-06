@@ -29,8 +29,36 @@ This Streamlit-based app allows users to input a YouTube video URL and receive a
 
 Make sure you have [Conda](https://docs.conda.io/en/latest/) installed.
 
-### 1. Clone the Repository
+<!-- ### 1. Clone the Repository -->
+
+<!-- ```bash
+git clone https://github.com/yourusername/youtube-transcriber-summarizer.git
+cd youtube-transcriber-summarizer -->
+Make sure you have Python 3.10 and Conda installed.
 
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/youtube-transcriber-summarizer.git
 cd youtube-transcriber-summarizer
+
+# Create and activate the virtual environment
+conda create -p venv python=3.10 -y
+conda activate venv/
+
+# Install the dependencies
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the root directory and add your Google Gemini API key:
+
+```env
+GOOGLE_API_KEY=your_google_api_key_here
+```
+
+Then run the app:
+
+```bash
+streamlit run app.py
+```
+
+---
