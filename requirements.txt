@@ -1,3 +1,4 @@
+#  Requiremnts to install
 youtube_transcript_api
 streamlit
 google-generativeai
