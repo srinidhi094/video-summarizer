@@ -27,8 +27,6 @@ This Streamlit-based app allows users to input a YouTube video URL and receive a
 
 ## ⚙️ Installation & Setup
 
-Make sure you have [Conda](https://docs.conda.io/en/latest/) installed.
-
 <!-- ### 1. Clone the Repository -->
 
 <!-- ```bash
@@ -36,16 +34,20 @@ git clone https://github.com/yourusername/youtube-transcriber-summarizer.git
 cd youtube-transcriber-summarizer -->
 Make sure you have Python 3.10 and Conda installed.
 
+Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/youtube-transcriber-summarizer.git
 cd youtube-transcriber-summarizer
+```
 
-# Create and activate the virtual environment
+Create and activate the virtual environment
+```bash
 conda create -p venv python=3.10 -y
 conda activate venv/
+```
 
-# Install the dependencies
+Install the dependencies
+```bash
 pip install -r requirements.txt
 ```
 
