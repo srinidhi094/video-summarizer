@@ -7,11 +7,11 @@ This Streamlit-based app allows users to input a YouTube video URL and receive a
 
 ## ✨ Features
 
-- 🔗 Accepts any YouTube URL
-- 📜 Extracts transcript using `youtube-transcript-api`
-- 🧠 Summarizes the transcript using Google Gemini Pro
-- 🖼️ Displays the video thumbnail for context
-- 📝 Outputs a clean, concise summary within **250 words**
+- Accepts any YouTube URL
+- Extracts transcript using `youtube-transcript-api`
+- Summarizes the transcript using Google Gemini Pro
+- Displays the video thumbnail for context
+- Outputs a clean, concise summary within **250 words**
 
 ---
 
